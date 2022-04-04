@@ -9,9 +9,9 @@ DemoApp:
   status: green
   container:
     # for Docker build
-    registry: https://platform-eu.stg.gcp.devopsacc.team/artifactory/sumanm-docker-dev-local
+    registry: platform-eu.stg.gcp.devopsacc.team/sumanm-docker-dev-local
     image: turbine-demo
-    tag: /0.0.4
+    tag: 0.0.4
     # for Docker push (which calls the JFrog CLI set props => only accept local repo)
     repoSource: sumanm-docker-dev-local
     repoPromotion1: sumanm-docker-release-local
