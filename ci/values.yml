@@ -5,7 +5,7 @@ DemoApp:
   releaseBundleName: demo-app
   projectName: dist
   artifactoryIntegration: artifactory_eu
-  distributionIntegration: distribution_eu
+  #distributionIntegration: distribution_eu
   status: green
   container:
     # for Docker build
