@@ -4,7 +4,7 @@ DemoApp:
   pipelineDistributionName: demo_app_distribute
   releaseBundleName: demo-app
   projectName: dist
-  artifactoryIntegration: artifactory_eu
+  artifactoryIntegration: artifactory_eu_https
   #distributionIntegration: distribution_eu
   status: green
   container:
