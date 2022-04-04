@@ -25,8 +25,8 @@ DemoApp:
 DemoAppContainerResources:
   gitRepo:
     name: src_dockerfile_demo_app
-    gitProvider: yann_github
-    path: cyan21/iot-demo
+    gitProvider: suman_github
+    path: sumanmohan/iot-demo
     branches:
       include: main
     # files:
