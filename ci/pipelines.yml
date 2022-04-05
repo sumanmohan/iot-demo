@@ -196,12 +196,4 @@ pipelines:
           outputResources:
             - name: {{ .Values.DemoAppDistributionResources.releaseBundle.resourceName }} 
 
-      - name: {{ .Values.DemoAppDistributionSteps.distributeRB.name }}
-        type: DistributeReleaseBundle
-        configuration:
-          dryRun: {{ .Values.DemoAppDistributionResources.releaseBundle.dryRun.distribute }} 
-          inputResources:
-            - name: {{ .Values.DemoAppDistributionResources.distributionRule.name }}
-              trigger: true   
-            - name: {{ .Values.DemoAppDistributionResources.releaseBundle.resourceName }}  
-              trigger: true  
+
